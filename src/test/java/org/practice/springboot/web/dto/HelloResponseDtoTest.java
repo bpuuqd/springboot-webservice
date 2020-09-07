@@ -1,7 +1,6 @@
-package org.practice.springboot.dto;
+package org.practice.springboot.web.dto;
 
 import org.junit.Test;
-import org.practice.springboot.web.dto.HelloResponseDto;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
