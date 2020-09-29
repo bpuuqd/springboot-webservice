@@ -1,7 +1,7 @@
 package org.practice.springboot.web;
 
 import lombok.RequiredArgsConstructor;
-import org.practice.springboot.service.posts.PostsService;
+import org.practice.springboot.service.PostsService;
 import org.practice.springboot.web.dto.PostsResponseDto;
 import org.practice.springboot.web.dto.PostsSaveRequestDto;
 import org.practice.springboot.web.dto.PostsUpdateRequestDto;

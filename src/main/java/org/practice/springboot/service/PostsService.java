@@ -1,4 +1,4 @@
-package org.practice.springboot.service.posts;
+package org.practice.springboot.service;
 
 import lombok.RequiredArgsConstructor;
 import org.practice.springboot.domain.posts.Posts;
