@@ -88,13 +88,13 @@ public class PostsApiControllerTest {
     @WithMockUser(roles = "USER")
     public void Posts_수정된다() throws Exception {
         //given
-        Posts savePosts = postsRepository.save(Posts.builder()
+        Posts savedPosts = postsRepository.save(Posts.builder()
         .title("title")
         .content("content")
         .author("author")
         .build());
 
-        Long updateId = savePosts.getId();
+        Long updateId = savedPosts.getId();
         String expectedTitle = "title2";
         String expectedContent = "content2";
 
