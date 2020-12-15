@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.practice.springboot.web.ProfileControllerUnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-12-15T11:07:07" hostname="Lucy" time="0.376">
+  <properties/>
+  <testcase name="active_profile이_없으면_default가_조회된다" classname="org.practice.springboot.web.ProfileControllerUnitTest" time="0.351"/>
+  <testcase name="real_profile이_없으면_첫번째가_조회된다" classname="org.practice.springboot.web.ProfileControllerUnitTest" time="0.019"/>
+  <testcase name="real_profile이_조회된다" classname="org.practice.springboot.web.ProfileControllerUnitTest" time="0.004"/>
+  <system-out><![CDATA[20:07:07.706 [Test worker] DEBUG org.springframework.mock.env.MockEnvironment - Activating profile 'oauth'
+20:07:07.716 [Test worker] DEBUG org.springframework.mock.env.MockEnvironment - Activating profile 'real-db'
+20:07:07.719 [Test worker] DEBUG org.springframework.mock.env.MockEnvironment - Activating profile 'real'
+20:07:07.719 [Test worker] DEBUG org.springframework.mock.env.MockEnvironment - Activating profile 'oauth'
+20:07:07.721 [Test worker] DEBUG org.springframework.mock.env.MockEnvironment - Activating profile 'real-db'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
