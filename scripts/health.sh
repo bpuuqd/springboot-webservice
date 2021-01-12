@@ -27,7 +27,7 @@ do
       echo "> Health check: ${RESPONSE}"
   fi
 
-  if[ ${RETRY_COUNT} -eq 10 ]
+  if [ ${RETRY_COUNT} -eq 10 ]
   then
     echo "> Health check fail"
     echo "> cancel connecting to Nginx and stop deploying"
