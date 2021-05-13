@@ -20,9 +20,9 @@ script: "./gradlew clean build"
 
 
 before_deploy:
-  - zip -r springboot-webservice *
+  - zip -r springboot2-webservice *
   - mkdir -p deploy
-  - mv springboot-webservice.zip deploy/springboot-webserivce.zip
+  - mv springboot2-webservice.zip deploy/springboot2-webserivce.zip
 #  - mkdir -p before-deploy # zip에 포함시킬 파일들을 담을 디렉토리 생성
 #  - cp scripts/*.sh before-deploy/
 #  - cp appspec.yml before-deploy/
